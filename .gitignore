@@ -1,0 +1,44 @@
+# Cadence Genus (Synthesis) generated files
+genus.log*
+genus.cmd
+fv/
+work/
+mapped/
+unmapped/
+alib-52/
+
+# Cadence Innovus (Place & Route) generated files
+innovus.log*
+innovus.cmd
+*.enc
+*.enc.dat
+*.rcx
+innovus_flow_control.txt
+
+# Cadence ncsim / xcelium
+*.shm/
+*.trn
+*.dsn
+INCA_libs/
+
+# Vivado (if used for simulation)
+*.jou
+*.log
+*.str
+*.bit
+*.runs/
+*.cache/
+.Xil/
+
+# ModelSim
+work/
+transcript
+vsim.wlf
+
+# Waveform dumps (keep only committed ones)
+*.vcd
+!sim/*.vcd
+
+# OS
+.DS_Store
+Thumbs.db
